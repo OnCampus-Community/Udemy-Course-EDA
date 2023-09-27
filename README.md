@@ -50,6 +50,7 @@ source myenv/bin/activate
 ``````
 #### Step 4: Install Project Dependencies
 Explain how to install the project dependencies from the requirements.txt file.
+The requirement file in this project based on jupyter notebook.
 ``````
 pip install -r requirements.txt
 ``````
