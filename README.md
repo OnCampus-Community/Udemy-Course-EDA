@@ -24,6 +24,37 @@ Exploratory data analysis was performed on the cleaned dataset to gain insights 
 
 4. What is the distribution of courses by instructor?
 
+
+## How to run:
+#### Step 1: Clone the Repository
+Explain how users can clone your project's GitHub repository to their local machine using the git clone command.
+```
+git clone https://github.com/OnCampus-Community/Udemy-Course-EDA.git
+
+cd Udemy-Course-EDA
+```
+#### Step 2: Create a Virtual Environment
+Guide users on creating a virtual environment in their project directory. Explain the benefits of using virtual environments to isolate dependencies.
+
+``
+virtualenv myenv
+``
+#### Step 3: Activate the Virtual Environment
+Show users how to activate the virtual environment depending on their operating system (Windows, macOS, or Linux).
+``````
+# Windows
+myenv\Scripts\activate
+
+# macOS and Linux
+source myenv/bin/activate
+``````
+#### Step 4: Install Project Dependencies
+Explain how to install the project dependencies from the requirements.txt file.
+``````
+pip install -r requirements.txt
+``````
+#### Step 5: Run the Project
+Provide instructions on how to run your project. Include any specific commands or configuration that users need to know.
 ## Results
 The results of the analysis show that most courses are geared towards beginners, with the majority of courses priced between E£10 and E£50 after discount. The average rating of the courses is 4.0, with a majority of the courses being taught by a small number of instructors.
 
